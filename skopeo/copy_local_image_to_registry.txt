@@ -1,0 +1,4 @@
+#skopeo copy containers-storate:/<image:tag> docker://quay.io/<username>/<image:tag>
+
+skopeo copy containers-storage:localhost/ubi-sleep:latest docker://quay.io/valentinouberti/ubi-sleep:1.0
+
