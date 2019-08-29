@@ -1,2 +1,8 @@
 #Create app from template
 oc new-app --template <project>/<template_name> -p <params>=<value>
+
+#test a template file
+oc new-app --dry-run -f <template_file.yml>
+
+#show parameters
+oc process --parameters <template_file.ml>
